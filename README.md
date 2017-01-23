@@ -1,2 +1,2 @@
-# LANMessenger
-LAN Messenger using JAVA
+# SlotMachine
+Slot machine using JAVA
