@@ -14,8 +14,8 @@ public class Sign extends ColouredFigure{
 	}
 	public String getImage()
 	{
-		String name=getColor();
-        name+=type;
+		String name=type;
+        name+=getColor();
 		return name;
 	}
 	public int getCatVal()
@@ -24,9 +24,9 @@ public class Sign extends ColouredFigure{
 	}
 	public void loadTypeVal()
 	{
-		if(type.equals("Asterisk"))
+		if(type.equals("asterisk"))
 			typeval=40;
-		else if(type.equals("Dollar"))
+		else if(type.equals("dollar"))
 			typeval=100;
 		else
 			typeval=0;

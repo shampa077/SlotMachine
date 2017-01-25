@@ -13,8 +13,8 @@ public class Number extends ColouredFigure{
 	}
 	public String getImage()
 	{
-		String name=getColor();
-        name+=type;
+		String name=type;
+        name+=getColor();
 		return name;
 	}
 	public int getCatVal()
@@ -23,11 +23,11 @@ public class Number extends ColouredFigure{
 	}
 	public void loadTypeVal()
 	{
-		if(type.equals("One"))
+		if(type.equals("1"))
 			typeval=10;
-		else if(type.equals("Two"))
+		else if(type.equals("2"))
 			typeval=20;
-		else if(type.equals("Three"))
+		else if(type.equals("3"))
 			typeval=30;
 		else
 			typeval=0;
