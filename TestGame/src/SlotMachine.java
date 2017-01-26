@@ -448,6 +448,10 @@ public void actionPerformed(ActionEvent e) {
 			if(dialogResult == 0){
 				resetGame();
 			}
+			else
+			{
+				System.exit(1);
+			}
         }
         else if(loose)
         {
@@ -458,6 +462,10 @@ public void actionPerformed(ActionEvent e) {
 			System.out.println(dialogResult);
 			if(dialogResult == 0){
 				resetGame();
+			}
+			else
+			{
+				System.exit(1);
 			}
         }
 	}
